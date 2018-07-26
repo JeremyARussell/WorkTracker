@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using WorkTracker.Classes;
 
 namespace WorkTracker
 {
@@ -11,7 +10,6 @@ namespace WorkTracker
         private DateTime _startTime;
         private DateTime _endTime;
         private TimeSpan _elapsed;
-        private Entry _entry;//Use later - when saving loading, etc.
 
 
         public frmMain()
